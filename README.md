@@ -1,6 +1,6 @@
 # AWS Lambda Function to Collect VPC Information and Store in AWS S3 Bucket
 
-
+## Overivew
 This code defines an AWS Lambda function that retrieves information about all VPCs and subnets in an AWS account and stores the data in a JSON format in an S3 bucket.
 
 The code uses the Boto3 library to interact with AWS services. The function starts by initializing an EC2 client and then retrieves all VPCs in the account using the describe_vpcs() function. For each VPC, it retrieves all the subnets in that VPC using the describe_subnets() function. The VPC and subnet information is then stored in a Python dictionary.

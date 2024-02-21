@@ -12,5 +12,3 @@ Finally, the function returns a response with a 200 status code and a message in
 
 ## Usage
 To use this code, create an AWS Lambda function with the lambda_handler function as the entry point. Ensure that the Lambda function has permission to access the necessary AWS services such as EC2 and S3. Also, replace the {mybucketname} placeholder with the name of the S3 bucket where you want to store the VPC information.
-
-
